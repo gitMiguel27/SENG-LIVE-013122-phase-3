@@ -19,7 +19,7 @@
 # Destroy => DROP, DELETE
 
 
-class PatientORM
+class PatientORM 
     attr_reader :id
     attr_accessor :name, :age, :owner, :number, :species
     
